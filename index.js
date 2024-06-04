@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 5000
+const port = 8080
 const jwt = require('jsonwebtoken');
 const secretKey = 'your_secret_key'; // Replace with your secret key
 const multer = require('multer');
