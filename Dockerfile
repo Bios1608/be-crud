@@ -17,7 +17,7 @@ COPY . .
 RUN npx prisma generate
 
 # Expose the port on which the app will run
-EXPOSE 5000
+EXPOSE 8080
 
 # Start the application
 CMD ["node", "index.js"]
